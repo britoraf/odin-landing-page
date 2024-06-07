@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+header {
+    background-color: #1F2937;
+    margin: 0px;
+    display: flex;
+    flex: 1 1 auto;
+    border: 1px solid;
+}
+header .header-items {
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    flex: 1 1 auto;
+    border: 1px solid;
+}
+header .header-items li, a {
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+header .header-logo {
+    display: flex;
+    padding: 0px 10px;
+    width: 0px;
+    align-items: center;
+    flex: 1 1 0px;
+    border: 1px solid;
+
+}
+header .header-link {
+    display: flex;
+    flex: 0 1 auto;
+    padding: 0 10px;
+    flex: 0 1 auto;
+}
+
+.presentation-father {
+    padding: 20px;
+    background-color: #1F2937;
+    height: 320px;
+    width: auto;
+}
+
+.presentation-child {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.presentation-left {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    height: 280px;
+    width: 480px;
+    flex: 0 1 auto;
+    margin-right: 20px;
+    border: 1px solid;
+}
+
+main #hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+main #hero-secondary {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+main .presentation-left button {
+    background-color: #3882F6;
+    color: #ffffff;
+    border: 0px;
+    width: 90px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+main .presentation-right {
+    background-color: #798391;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    width: 480px;
+    flex: 0 1 auto;
+    margin-left: 20px;
+
+}
+
+main .presentation-right > p {
+    color: #E5E7EB;
+}
+
+.upper-div {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+}
+.upper-div h2 {
+    text-align: center;
+}
+.upper-div .boxes{
+    display: flex;
+    text-align: center;
+}
+.upper-div #box1, #box2, #box3, #box4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.upper-div #box1 div, #box2 div, #box3 div, #box4 div {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+
+
