@@ -5,38 +5,49 @@ body {
 }
 header {
     background-color: #1F2937;
-    margin: 0px;
-    display: flex;
-    flex: 1 1 auto;
-    border: 1px solid;
+    padding: 20px;
 }
+
+.header-items {
+    padding: 0px;
+}
+
 header .header-items {
     display: flex;
     padding: 0px;
-    align-items: center;
-    flex: 1 1 auto;
-    border: 1px solid;
+    margin: 0px;
+    justify-content: center;
 }
-header .header-items li, a {
-    list-style-type: none;
-    font-size: 18px;
-    color: #E5E7EB;
+
+header #div-header1 a {
+    font-size: 24px;
+    color: #F9FAF8;
     text-decoration: none;
 }
-header .header-logo {
-    display: flex;
-    padding: 0px 10px;
-    width: 0px;
-    align-items: center;
-    flex: 1 1 0px;
-    border: 1px solid;
 
+header #div-header2 a {
+    font-size: 18px;
+    color: #F9FAF8;
+    text-decoration: none;
 }
-header .header-link {
+
+
+header #div-header1 {
     display: flex;
+    justify-content: flex-start;
+    width: 480px;
+    box-sizing: border-box;
+    margin-right: 20px;
     flex: 0 1 auto;
-    padding: 0 10px;
+}
+header #div-header2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 480px;
+    box-sizing: border-box;
+    margin-left: 20px;
     flex: 0 1 auto;
+    gap: 15px;
 }
 
 .presentation-father {
@@ -58,9 +69,10 @@ header .header-link {
     height: auto;
     height: 280px;
     width: 480px;
+    box-sizing: border-box;
     flex: 0 1 auto;
     margin-right: 20px;
-    border: 1px solid;
+    justify-content: center;
 }
 
 main #hero-main {
@@ -95,6 +107,7 @@ main .presentation-right {
     align-items: center;
     height: 280px;
     width: 480px;
+    box-sizing: border-box;
     flex: 0 1 auto;
     margin-left: 20px;
 
