@@ -30,8 +30,6 @@ header #div-header2 a {
     color: #F9FAF8;
     text-decoration: none;
 }
-
-
 header #div-header1 {
     display: flex;
     justify-content: flex-start;
@@ -49,20 +47,17 @@ header #div-header2 {
     flex: 0 1 auto;
     gap: 15px;
 }
-
 .presentation-father {
     padding: 20px;
     background-color: #1F2937;
     height: 320px;
     width: auto;
 }
-
 .presentation-child {
     display: flex;
     justify-content: center;
     padding: 0px;
 }
-
 .presentation-left {
     display: flex;
     flex-direction: column;
@@ -74,7 +69,6 @@ header #div-header2 {
     margin-right: 20px;
     justify-content: center;
 }
-
 main #hero-main {
     font-size: 48px;
     color: #F9FAF8;
@@ -82,14 +76,12 @@ main #hero-main {
     margin-top: 8px;
     margin-bottom: 0;
 }
-
 main #hero-secondary {
     font-size: 24px;
     color: #F9FAF8;
     margin-top: 8px;
     margin-bottom: 0;
 }
-
 main .presentation-left button {
     background-color: #3882F6;
     color: #ffffff;
@@ -98,7 +90,6 @@ main .presentation-left button {
     border-radius: 5px;
     margin-top: 8px;
 }
-
 main .presentation-right {
     background-color: #798391;
     border: 1px solid;
@@ -112,22 +103,38 @@ main .presentation-right {
     margin-left: 20px;
 
 }
-
 main .presentation-right > p {
     color: #E5E7EB;
 }
-
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main .main-divs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+}
 .upper-div {
     display: flex;
     flex-direction: column;
-    border: 1px solid;
+    align-items: center;
+    width: 1000px;
+    box-sizing: border-box;
+    padding-bottom: 25px;
 }
 .upper-div h2 {
     text-align: center;
+    font-size: 35px;
+    margin: 35px 0px;
 }
 .upper-div .boxes{
     display: flex;
     text-align: center;
+    border: px solid;
+    justify-content: center;
 }
 .upper-div #box1, #box2, #box3, #box4 {
     display: flex;
@@ -141,9 +148,72 @@ main .presentation-right > p {
     height: 200px;
     width: 200px;
 }
+.middle-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0px;
+    width: 100%;
+    padding: 40px 80px;
+    background-color: #E5E7EB;
+}
+.thor-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 30px;
+    margin: 0px;
+    width: 1000px;
+    box-sizing: border-box;
+}
+#quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 0;
+}
+#citation {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+#signup-box {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 20px 0px;
+    margin: 50px 0px;
+    width: 1000px;
+    border-radius: 9px;
+    color: #F9FAF8
+}
+#para {
+    padding: 0px;
+    margin: 0px;
+}
+#para h3, p {
+    padding: 0px;
+    margin: 0px;
+}
 
-
-
-
-
+#button2 button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: 0px;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+    border: 2px #F9FAF8 solid;
+    padding: 3px 20px;
+}
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 30px;
+}
 
